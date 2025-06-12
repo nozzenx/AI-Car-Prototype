@@ -258,7 +258,7 @@ You are part of the vehicle's integrated system and can physically control all t
         // Create OpenAI request
         var requestData = new OpenAIRequest
         {
-            model = "gpt-3.5-turbo-1106",
+            model = "gpt-4o",
             messages = messages.ToArray(),
             tools = GetCarControlTools(),
             tool_choice = "auto"
